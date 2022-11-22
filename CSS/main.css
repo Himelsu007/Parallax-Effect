@@ -1,0 +1,98 @@
+@charset "UTF-8";
+
+*{
+    padding:0px;
+    margin:0px;
+}
+
+:root {  --color0: white; --color1:black;  --main_font: 'F1';  --poem_font:'F2'; }
+
+header 
+{ 
+    height:260px;  margin:auto;  background-color:black; 
+}
+
+a 
+{  
+    color: var(--color0);  background-color:  var(--color1);  height:20px; display:block;  text-align:center;
+    padding-bottom: 50px;  text-decoration: none;  font-family: Verdana, Tahoma, sans-serif; 
+}
+
+header > h1  
+{ 
+        color: var(--color0);   font-family:var(--main_font), 'cursive';  text-align: center;  font-size: 10vw; font-weight:400px;  
+        letter-spacing:4px;  font-variant: small-caps;   font-variant-ligatures:normal;  display: block;    padding-top:50px; 
+}
+
+h1 {  font-size:192px; }
+
+.poem_org 
+{  
+    font-family: var(--poem_font);  font-size:67.2px;   padding-top:35px;  text-indent:33px; 
+}
+
+section 
+        { 
+            background-color:white;  background-attachment: relative;  background-size: cover;  padding-bottom: 80px; 
+        }
+            article
+                {
+                    padding-top: 60px;
+                }
+
+.second_section
+    {
+        background-image: url('/imagens/background001.jpg'); background-repeat: no-repeat; text-shadow: 1px 1px 0px; background-attachment: fixed;
+        height:1334px;  position: relative;  color:white;  font-family: var(--poem_font);  font-size:67.2px; background-size: cover;
+        box-shadow: inset 6px 6px 13px 0px rgba(0, 0 , 0 , 0.473);
+    }
+        div.pieta   
+            {
+                background-color: rgba(0, 0 , 0 , 0.4);  border:3px solid transparent; 
+                position:absolute; left:33px; top:85px;  height: 1100px; width: 806px;
+            }
+                .poem_org_2
+                    {
+                        font-family: var(--poem_font);  font-size:67.2px; padding-top: 35px;
+                    }
+
+.third_section
+    {
+        background-color:var(--color0);  height:100vh;  position: relative;  color:var(--color1);
+        font-family: var(--poem_font);  font-size:67.2px;   text-shadow: 1px 1px 0px; padding-top:50px;
+    }
+
+.square
+    { 
+    background-color: rgba(0, 0 , 0 , 0.4);  border:3px solid transparent; 
+    position:absolute; left:60px; top:55px;  height: 1200px; width: 790px;
+    }
+
+    .fourth_section
+{
+    background-image: url('/imagens/background002.jpg'); background-repeat: no-repeat ; text-shadow: 1px 1px 0px;  background-size: cover;
+    height:1334px;  position: relative;  color:white;  font-family: var(--poem_font);  font-size:67.2px; background-attachment: fixed;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0 , 0 , 0.473);
+
+}
+    div.pieta_4   
+        {
+            background-color: rgba(0, 0 , 0 , 0.4);  border:3px solid transparent; 
+            position:absolute; left:33px; top:45px;  height: 1083px; width: 806px;
+        }
+            .poem_org_4
+                {
+                    font-family: var(--poem_font);  font-size:67.2px; padding-top: 35px;
+                }
+
+.fifth_section
+{
+    background-color:var(--color0);  height:100vh;  position: relative;  color:var(--color1);
+    font-family: var(--poem_font);  font-size:67.2px;  text-shadow: 1px 1px 0px;
+}
+
+.sixth_section
+{
+    background-color:var(--color0);  height:100vh;  position: relative;  color:var(--color1);
+    font-family: var(--poem_font);  font-size:67.2px; padding-top: 33px;
+}
